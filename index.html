@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahd's AWS Cloud Project</title>
+    <style>
+        :root {
+            --primary-color: #232f3e; /* AWS Dark Blue */
+            --secondary-color: #ff9900; /* AWS Orange */
+            --bg-color: #f1f4f8;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        h1 { margin: 0; font-size: 2.5rem; }
+        h2 { color: var(--primary-color); border-left: 4px solid var(--secondary-color); padding-left: 15px; }
+
+        .status-badge {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .tech-stack {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .tag {
+            background: #e9ecef;
+            padding: 6px 14px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            color: var(--primary-color);
+        }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .highlight { color: var(--secondary-color); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><span style="color: var(--secondary-color);">AWS</span> Cloud Infrastructure Project</h1>
+        <p>Successfully Deployed on Amazon EC2 Linux Instance</p>
+        <div class="status-badge">System Status: Online ✅</div>
+    </header>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>Welcome to My Private Cloud ☁️</h2>
+            <p>I am <span class="highlight">Shahd Omar</span>, a Computer Science student and Cloud & Linux Support Specialist. This live environment demonstrates my technical ability to architect and manage scalable cloud infrastructures.</p>
+        </div>
+
+        <div class="card">
+            <h2>Technical Stack & Infrastructure</h2>
+            <p>The following AWS services and technologies were used in this deployment:</p>
+            <div class="tech-stack">
+                <span class="tag">AWS EC2</span>
+                <span class="tag">Ubuntu 24.04 LTS</span>
+                <span class="tag">Apache Web Server</span>
+                <span class="tag">Linux Administration</span>
+                <span class="tag">Security Groups (Ingress/Egress)</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Project Milestones & Skills</h2>
+            <ul>
+                <li>Provisioning and managing <strong>Linux-based EC2 Instances</strong>.</li>
+                <li>Implementing secure access using <strong>RSA Key Pairs (SSH)</strong>.</li>
+                <li>Configuring <strong>Security Groups</strong> to manage HTTP inbound traffic on Port 80.</li>
+                <li>Automation of web service deployment via <strong>Bash Scripts</strong>.</li>
+                <li>Real-time system monitoring and log management.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 | Shahd Omar Gomaa - Cloud Engineer In Training
+    </footer>
+
+</body>
+</html>
